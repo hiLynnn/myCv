@@ -1,0 +1,136 @@
+#append-snow{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+.mmis-snow-1{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-1.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+  
+}
+.mmis-snow-2{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-2.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-3{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-3.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-4{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-4.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-5{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-5.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-6{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-6.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-7{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-7.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-8{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-8.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-9{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-9.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-10{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-10.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+.mmis-snow-0{
+    position: absolute; pointer-events: none;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background-image: url('../images/effect/bong-11.png');
+    background-size: contain;     background-repeat: no-repeat;
+    animation: animationSnow 4s ease-in-out infinite;
+}
+@keyframes animationSnow{
+    0%{
+        transform: translate(0,0);
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+      60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(100px,60vh) rotate(120deg);
+    }
+}

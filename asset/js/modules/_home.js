@@ -8,6 +8,30 @@ export default class Script{
     events(){
         console.log("Script is on!");
         this.renderPost(projects);
+        const audio = document.getElementById('myAudio');
+        audio.volume = 0.7;
+
+        $('#exampleModal').modal('show');
+
+        $(document).on('click', '#play-music', function(){
+            const _this = $(this);
+            if(_this.hasClass('play')){
+                _this.removeClass('play');
+                audio.pause();
+            } else {
+                _this.addClass('play');
+                audio.play().catch((error) => {
+                    console.error('Error playing audio:', error);
+                });
+            }
+        });
+
+        const modalElement = document.getElementById('exampleModal');
+        // Add event listener for the "hidden.bs.modal" event
+        modalElement.addEventListener('hidden.bs.modal', function () {
+            console.log('Modal has been closed!');
+            $('#play-music').click();
+        });
     }
 
     renderTag(data=[]){
